@@ -1,0 +1,54 @@
+/* frontend/src/styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  background-color: rgb(237, 238, 245);
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+form input[type="text"] {
+  padding: 10px;
+  margin-right: 10px;
+  width: 200px;
+}
+
+form input[type="date"] {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+form button {
+  padding: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+button {
+  margin-left: 10px;
+}
